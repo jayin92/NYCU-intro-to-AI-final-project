@@ -13,6 +13,7 @@ The output is a two-column csv. The first column is the id of the location, and 
 
 ## Related Work
 The winner of GeoLifeCLEF 2021: http://ceur-ws.org/Vol-2936/paper-140.pdf
+
 The winner of GeoLifeCLEF 2020: https://hal.inria.fr/hal-02989084/file/paper_192.pdf
 
 ## Methology
