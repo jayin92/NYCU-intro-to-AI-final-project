@@ -1,0 +1,4 @@
+datasets
+*.zip
+submissions
+.ipynb_checkpoints/*.*

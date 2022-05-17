@@ -1,0 +1,3 @@
+[submodule "GLC"]
+	path = GLC
+	url = https://github.com/maximiliense/GLC
