@@ -36,3 +36,16 @@ Random selecting model is the lower bound of a model’s performance. Any reason
 - 4/19-5/3 baseline model implementation.
 - 5/4-5/24 try differnet models and differnet architectures and test performance.
 - 5/25- deadline write report
+
+## experiment
+### hyperparameter
+lr = 0.001, batch size = 16, pretrained on resnet50 using RGB three channels, early stopping on validation data accuracy.
+
+For random forest, the number of trees is 16 with each depth 10.
+
+To reproduce the experiment, some may adhere to the requirement.txt and then execute the resnet.ipynb file from start to the end and also set the hyperparameters as above.
+
+### result
+Top 30 most present species | 0.94
+Random Forest with 10 tree and depth 16 | 0.80
+Pretrained resnet50 on RGB three channels | 0.85
