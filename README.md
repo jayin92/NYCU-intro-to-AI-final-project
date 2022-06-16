@@ -37,7 +37,7 @@ Random selecting model is the lower bound of a model’s performance. Any reason
 - 5/4-5/24 try differnet models and differnet architectures and test performance.
 - 5/25- deadline write report
 
-## experiment
+## Experiment
 ### hyperparameter
 lr = 0.001, batch size = 16, pretrained on resnet50 using RGB three channels, early stopping on validation data accuracy.
 
